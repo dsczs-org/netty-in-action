@@ -1,6 +1,10 @@
 package nia.chapter6;
 
-import io.netty.channel.*;
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelFutureListener;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelOutboundHandlerAdapter;
+import io.netty.channel.ChannelPromise;
 
 /**
  * Listing 6.14 Adding a ChannelFutureListener to a ChannelPromise

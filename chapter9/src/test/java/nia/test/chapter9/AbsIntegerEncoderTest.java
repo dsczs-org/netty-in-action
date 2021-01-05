@@ -6,7 +6,9 @@ import io.netty.channel.embedded.EmbeddedChannel;
 import nia.chapter9.AbsIntegerEncoder;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Listing 9.4 Testing the AbsIntegerEncoder
